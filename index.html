@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en" data-type="software">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0c0c0c" />
+    <meta name="page-type" content="software" />
+    <meta name="site-kind" content="software" />
+    <meta
+      name="description"
+      content="AHMED GWWAD — frontend developer building creative, modern, and interactive websites."
+    />
+    <title>AHMED GWWAD — Frontend Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <main id="main">
+      <section class="hero" id="top" data-enter aria-labelledby="hero-title">
+        <div class="hero-frame">
+          <nav class="nav" aria-label="Main navigation">
+            <a class="wordmark" href="#top" aria-label="AHMED GWWAD, home">
+              <span class="wordmark-mark">A</span>
+              <span>AHMED GWWAD</span>
+            </a>
+            <div class="nav-links">
+              <a href="#about">About</a>
+              <a href="#skills">Skills</a>
+              <a href="#projects">Projects</a>
+            </div>
+          </nav>
+
+          <p class="hero-kicker">FRONTEND DEVELOPER <span>·</span> PERSONAL PORTFOLIO</p>
+          <h1 class="hero-heading" id="hero-title">HI, I'M AHMED</h1>
+
+          <div class="portrait-wrap" role="group" aria-label="Interactive portrait of AHMED GWWAD">
+            <button
+              class="portrait-control"
+              type="button"
+              aria-label="Interact with AHMED GWWAD's portrait"
+              aria-describedby="portrait-hint"
+            >
+              <img
+                class="portrait-image"
+                src="assets/portrait-3d.png"
+                alt="AHMED GWWAD in a light gray hoodie"
+                fetchpriority="high"
+              />
+              <canvas class="eye-tracker" aria-hidden="true"></canvas>
+            </button>
+            <span class="portrait-orbit orbit-one" aria-hidden="true"></span>
+            <span class="portrait-orbit orbit-two" aria-hidden="true"></span>
+          </div>
+
+          <div class="hero-bottom">
+            <p class="hero-intro">
+              CREATIVE, MODERN<br />
+              AND INTERACTIVE<br />
+              WEBSITES
+            </p>
+            <p class="portrait-hint" id="portrait-hint" aria-live="polite">MOVE YOUR CURSOR TO INTERACT <span>↗</span></p>
+            <a class="pill-button" href="#projects">EXPLORE MY PROJECTS <span aria-hidden="true">↗</span></a>
+          </div>
+
+        </div>
+      </section>
+
+      <section class="about section-shell" id="about" aria-labelledby="about-title">
+        <div class="section-heading">
+          <p class="eyebrow">A LITTLE ABOUT ME</p>
+          <span class="section-mark" aria-hidden="true">✳</span>
+        </div>
+        <div class="about-grid">
+          <h2 class="display-heading" id="about-title">MAKING<br />IDEAS <span>REAL.</span></h2>
+          <div class="about-copy">
+            <p>
+              Hey! I'm AHMED GWWAD, a 15-year-old frontend developer passionate about building creative,
+              modern, and interactive websites. I've learned HTML, CSS, Java, and React, and I enjoy
+              turning ideas into real projects. I'm always exploring new technologies and improving my
+              development skills.
+            </p>
+            <div class="about-meta">
+              <span><i class="status-dot" aria-hidden="true"></i> FRONTEND DEVELOPER</span>
+              <span>ALWAYS LEARNING</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills section-shell" id="skills" aria-labelledby="skills-title">
+        <div class="section-heading">
+          <p class="eyebrow">WHAT I'VE LEARNED</p>
+          <span class="section-note">TOOLS I USE TO BRING IDEAS TO LIFE</span>
+        </div>
+        <div class="skills-layout">
+          <h2 class="display-heading" id="skills-title">THE<br /><span>TOOLKIT.</span></h2>
+          <ul class="skill-list" aria-label="Skills">
+            <li><span class="skill-symbol html-symbol" aria-hidden="true">&lt;/&gt;</span><span>HTML</span></li>
+            <li><span class="skill-symbol css-symbol" aria-hidden="true">✳</span><span>CSS</span></li>
+            <li><span class="skill-symbol java-symbol" aria-hidden="true">J</span><span>Java</span></li>
+            <li><span class="skill-symbol react-symbol" aria-hidden="true">◎</span><span>React</span></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="projects section-shell" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading projects-heading">
+          <div>
+            <p class="eyebrow">A FEW THINGS I'VE BUILT</p>
+            <h2 class="display-heading" id="projects-title">MY <span>PROJECTS.</span></h2>
+          </div>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-copy">
+              <div class="project-meta"><span>1 / WEB TOOL</span><a href="https://ai-website-builder-2-8foq.onrender.com/" target="_blank" rel="noopener noreferrer" aria-label="Open AI Website Builder project">OPEN PROJECT <span aria-hidden="true">↗</span></a></div>
+              <h3>AI WEBSITE BUILDER</h3>
+              <p>A browser tool to start from a written idea or write code and preview it live.</p>
+            </div>
+            <div class="project-preview builder-preview" aria-hidden="true">
+              <div class="builder-bar"><span class="window-dots"><i></i><i></i><i></i></span><span>NEW WEBSITE</span><span>↗</span></div>
+              <div class="builder-content">
+                <div class="builder-prompt"><span>DESCRIBE YOUR IDEA</span><p>A home for your next big idea<span class="text-caret"></span></p><b>BUILD WITH AI <span>↗</span></b></div>
+                <div class="builder-result"><span>LIVE PREVIEW</span><div class="preview-sun"></div><strong>Make room<br />for what’s next.</strong><i></i><i></i><i></i></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-copy">
+              <div class="project-meta"><span>2 / PRODUCTIVITY APP</span><a href="https://spliterrand.onrender.com/" target="_blank" rel="noopener noreferrer" aria-label="Open SplitErrand project">OPEN PROJECT <span aria-hidden="true">↗</span></a></div>
+              <h3>SPLITERRAND</h3>
+              <p>A daily errands planner with grouped trips, useful lists, and a calmer way to organize the day.</p>
+            </div>
+            <div class="project-preview errands-preview" aria-hidden="true">
+              <div class="errands-app">
+                <div class="errands-side"><span class="errands-logo">S.</span><i></i><i></i><i></i><span class="errands-avatar">A</span></div>
+                <div class="errands-main">
+                  <div class="errands-header"><span>YOUR DAY, IN ORDER</span><span>MONDAY · TODAY</span></div>
+                  <strong>A little more<br />room to breathe.</strong>
+                  <div class="errand-row"><b class="checked">✓</b><span>Pick up a few things</span><i>ERRAND</i></div>
+                  <div class="errand-row"><b></b><span>Drop off a package</span><i>TO DO</i></div>
+                  <div class="errand-row"><b></b><span>Plan the afternoon trip</span><i>TRIP</i></div>
+                </div>
+                <div class="route-art"><span>01</span><svg viewBox="0 0 100 130" aria-hidden="true"><path d="M30 10 C80 26 20 42 57 61 S83 91 35 118" /><circle cx="30" cy="10" r="5"/><circle cx="35" cy="118" r="5"/></svg><span>03</span></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-copy">
+              <div class="project-meta"><span>3 / HEALTHCARE TOOL</span><a href="https://hospital-checklist.onrender.com/" target="_blank" rel="noopener noreferrer" aria-label="Open Hospital Checklist project">OPEN PROJECT <span aria-hidden="true">↗</span></a></div>
+              <h3>HOSPITAL CHECKLIST</h3>
+              <p>An Arabic dashboard for organizing surgical preparation checklists, tracking readiness, and saving progress in the browser.</p>
+            </div>
+            <div class="project-preview hospital-preview" aria-hidden="true">
+              <img src="assets/projects/hospital-checklist.png" alt="" loading="lazy" width="1586" height="992" />
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-copy">
+              <div class="project-meta"><span>4 / WEB EXPERIENCE</span><a href="https://aouto-haus.onrender.com/" target="_blank" rel="noopener noreferrer" aria-label="Open AUTO HAUS project">OPEN PROJECT <span aria-hidden="true">↗</span></a></div>
+              <h3>AUTO HAUS</h3>
+              <p>A Cairo car discovery experience with a focused inventory and booking flow.</p>
+            </div>
+            <div class="project-preview auto-preview" aria-hidden="true">
+              <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&amp;fit=crop&amp;w=1400&amp;q=85" alt="" loading="lazy" />
+              <div class="auto-shade"></div>
+              <div class="auto-preview-top"><span>AH / AUTO HAUS</span><span>CAIRO · 2026</span></div>
+              <p>DRIVE<br /><em>YOUR STORY.</em></p>
+              <span class="auto-preview-link">DISCOVER THE COLLECTION ↗</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-copy">
+              <div class="project-meta"><span>5 / INTERACTIVE SITE</span><a href="https://speed-type-rhgr.onrender.com/" target="_blank" rel="noopener noreferrer" aria-label="Open Speed Type project">OPEN PROJECT <span aria-hidden="true">↗</span></a></div>
+              <h3>SPEED TYPE</h3>
+              <p>A focused typing experience built around rhythm, accuracy, and a little friendly pressure.</p>
+            </div>
+            <div class="project-preview speed-preview" aria-hidden="true">
+              <div class="speed-top"><span>TYPE / FOCUS</span><span>READY WHEN YOU ARE</span></div>
+              <div class="speed-line"><span>Find your</span> <em>flow</em><span class="speed-cursor"></span></div>
+              <div class="speed-bottom"><span>BEGIN TYPING</span><span>↘</span></div>
+              <div class="speed-rings"></div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-copy">
+              <div class="project-meta"><span>6 / CREATIVE TOOL</span><a href="https://qr-shape.onrender.com" target="_blank" rel="noopener noreferrer" aria-label="Open QR Shape project">OPEN PROJECT <span aria-hidden="true">↗</span></a></div>
+              <h3>QR SHAPE</h3>
+              <p>A QR code creator with shapes designed to match the activity behind each code.</p>
+            </div>
+            <div class="project-preview qr-preview" aria-hidden="true">
+              <div class="qr-copy"><span>MAKE IT YOURS</span><strong>SCAN<br />YOUR<br /><em>STYLE.</em></strong><span>QR SHAPE / 2026</span></div>
+              <div class="qr-code"><span></span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <a class="footer-brand" href="#top">AHMED GWWAD <span>↗</span></a>
+        <p>FRONTEND DEVELOPER <span>·</span> 2026</p>
+        <a class="back-top" href="#top">BACK TO TOP ↑</a>
+      </footer>
+    </main>
+  </body>
+</html>
